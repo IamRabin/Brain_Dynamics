@@ -1,0 +1,7 @@
+base_channel_size: 64
+decoder_class: !!python/name:model.Decoder ''
+encoder_class: !!python/name:model.Encoder ''
+height: 19
+latent_dim: 128
+num_input_channels: 118
+width: 500

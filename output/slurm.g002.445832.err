@@ -1,0 +1,47 @@
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+
+  | Name    | Type    | Params | In sizes          | Out sizes        
+----------------------------------------------------------------------------
+0 | encoder | Encoder | 2.0 M  | [2, 118, 500, 19] | [2, 64]          
+1 | decoder | Decoder | 2.0 M  | [2, 64]           | [2, 118, 19, 500]
+----------------------------------------------------------------------------
+4.1 M     Trainable params
+0         Non-trainable params
+4.1 M     Total params
+16.275    Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=500` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+
+  | Name    | Type    | Params | In sizes          | Out sizes        
+----------------------------------------------------------------------------
+0 | encoder | Encoder | 3.6 M  | [2, 118, 500, 19] | [2, 128]         
+1 | decoder | Decoder | 3.6 M  | [2, 128]          | [2, 118, 19, 500]
+----------------------------------------------------------------------------
+7.2 M     Trainable params
+0         Non-trainable params
+7.2 M     Total params
+28.662    Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
+`Trainer.fit` stopped: `max_epochs=500` reached.
+GPU available: False, used: False
+TPU available: False, using: 0 TPU cores
+IPU available: False, using: 0 IPUs
+HPU available: False, using: 0 HPUs
+
+  | Name    | Type    | Params | In sizes          | Out sizes        
+----------------------------------------------------------------------------
+0 | encoder | Encoder | 6.7 M  | [2, 118, 500, 19] | [2, 256]         
+1 | decoder | Decoder | 6.7 M  | [2, 256]          | [2, 118, 19, 500]
+----------------------------------------------------------------------------
+13.4 M    Trainable params
+0         Non-trainable params
+13.4 M    Total params
+53.435    Total estimated model params size (MB)
+SLURM auto-requeueing enabled. Setting signal handlers.
